@@ -1,334 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>VPS DEKHO - Vps Is Now In Palm Of Your Hand!</title>
-    <link rel="shortcut icon" type="x-icon", href="vps.png">
+    <link rel="shortcut icon" type="x-icon" , href="vps.png">
     <meta charset="UTF-8">
-    <meta name="description" content="Explore VPS Options For Budget-Conscious Users, Quality-Focused Users & Value-Seeking Users.">
+    <meta name="description"
+        content="Explore VPS Options For Budget-Conscious Users, Quality-Focused Users & Value-Seeking Users.">
     <meta name="keywords" content="VPS">
     <meta name="author" content="Anjan">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        /* CSS styles for header */
-        header {
-            background-color: #363636;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        /* CSS styles for footer */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #F2F3F4;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 0 20px;
-        }
-        h1 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        select {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 20px;
-            font-size: 16px;
-        }
-        .option-container {
-            margin-bottom: 40px;
-        }
-        .option {
-            margin-bottom: 20px;
-        }
-        .option h3 {
-            margin-bottom: 10px;
-        }
-        .feature-table {
-            border-collapse: collapse;
-            width: 100%;
-        }
-        .feature-table th, .feature-table td {
-            padding: 8px;
-            border-bottom: 1px solid #ddd;
-            text-align: left;
-        }
-        .button {
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .button:hover {
-            background-color: #0056b3;
-        }
+    <link rel="stylesheet" href="style.css">
 
-        /* CSS styles for select dropdown */
-        select#category-select {
-            width: 100%;
-            padding: 12px;
-            margin-bottom: 20px;
-            font-size: 16px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-            background-color: #f8f8f8;
-            color: #333;
-            font-weight: bold;
-        }
-
-        /* CSS styles for buttons */
-        .button {
-            background-color: #f64b0b;
-            color: #fff;
-            border: none;
-            padding: 12px 24px;
-            cursor: pointer;
-            text-decoration: none;
-            border-radius: 5px;
-            display: inline-block;
-            transition: background-color 0.3s ease;
-        }
-
-        .button:hover {
-            background-color: #343434;
-        }
-
-.loading-spinner {
-  border: 4px solid rgba(0, 0, 0, 0.1);
-  border-left-color: #333;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-/* CSS styles for article content */
-.article-content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.article-content h2 {
-    color: #333;
-    font-size: 24px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-
-.article-content p {
-    color: #555;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
-/* Style links within article content */
-.article-content a {
-    color: #007bff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.article-content a:hover {
-    color: #0056b3;
-}
-
-    </style>
 </head>
+
 <body>
-    <!-- Header -->
-    <header>
-        <h1>VPS DEKHO</h1>
-    </header>
-    <div class="container">
-        <center><h2><i><b>Vps Is Now In Palm Of Your Hand!</b></i></h2></center>
-        <h3><i><b>Select A Category From The Dropdown Menu And Find The Suitable Vps For Your Needs!</b></i></h3>
+    <nav>
+        <div class="logo">
+            <img id="logoImg" src="vps.png" alt="logo">
+            <p>VPS DEKHO</p>
+        </div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="https://t.me/HeyHeartBeat" target="_blank">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-container">
+        <center>
+            <h2><i><b>Vps Is Now In Palm Of Your Hand!</b></i></h2>
+        </center>
+        <h3><i><b>Enable Vps For Your Needs!</b></i></h3>
         <select id="category-select">
             <option value="" selected disabled>Select A Category</option>
-            <option value="For Budget-Conscious Users">For Budget-Conscious Users</option>
+            <option value="For Budget-Conscious Users">For Budget-Conscious Users
+            </option>
             <option value="For Quality-Focused Users">For Quality-Focused Users</option>
             <option value="For Value-Seeking Users">For Value-Seeking Users</option>
         </select>
-        <div class="option-container" id="options-container"></div> <hr>
+        <div class="option-container" id="options-container"></div>
+        <hr>
 
     </div>
-    <div>
-    
+
+
+    <h1 class="faq-heading"><i><b>Frequently Asked Questions</b></i></h1>
+    <div class="wrapper">
+
+        <div class="container">
+            <div class="question">
+                Is that VPS Dekho trustworthy?
+            </div>
+            <div class="answercont">
+                <div class="answer">
+                    If you do not trust us, that's not a problem because we have our own customers who believe
+                    in us
+                    and gave us a chance for the first time. Now, those customers are our regular clients. So,
+                    try
+                    us out first, and then believe in our services.<br><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="question">
+                Are those VPS legitimate or are they carded VPS?
+            </div>
+            <div class="answercont">
+                <div class="answer">
+                    We do not sell carded items; we sell genuine products directly from data centers.<br><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="question">
+                Why are our prices cheaper than others?
+            </div>
+            <div class="answercont">
+                <div class="answer">
+                    We offer servers from direct data centers in multiple cities, with the option to upgrade and
+                    renew. Our focus is on quality products without unnecessary expenses on advertising or
+                    promotions.<br><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="question">
+                What payment methods does VPS Dekho support?
+            </div>
+            <div class="answercont">
+                <div class="answer">
+                    Currently, VPS Dekho only supports payments via UPI. In the future, we plan to add many more
+                    payment methods.<br><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="question">
+                Does VPS Dekho charge VAT/Sales Tax?
+            </div>
+            <div class="answercont">
+                <div class="answer">
+                    Currently, VPS Dekho does not charge VAT/Sales Tax.<br><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="question">
+                For outbound traffic, inbound traffic, and the total bandwidth usage, how is it calculated?
+            </div>
+            <div class="answercont">
+                <div class="answer">
+                    The costs are calculated based on outgoing traffic only, not inbound traffic. For example,
+                    if
+                    your monthly bandwidth quota is 4TB, it is calculated as follows:
+                    4TB/672hr(24hr*28days)=5.95GB/hr.<br><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="question">
+                What Data Centers do we provide?
+            </div>
+            <div class="answercont">
+                <div class="answer">
+                    We offer many popular data center locations. As of now, we have New York, San Francisco,
+                    Amsterdam, Singapore, London, Frankfurt, Toronto, Bangalore, and Sydney. In the future, we
+                    will
+                    add more locations.<br><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="question">
+                Which OS images do you offer?
+            </div>
+            <div class="answercont">
+                <div class="answer">
+                    We offer the following system images: Ubuntu, CentOS, Debian, Fedora, Alma Linux, and Rocky
+                    Linux.<br><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="question">
+                Does VPS Dekho support IPv6?
+            </div>
+            <div class="answercont">
+                <div class="answer">
+                    We have both IPv4 and IPv6. By default, all of our VPS have IPv4. If any users request IPv6,
+                    we
+                    can enable the IPv6 option.<br><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="question">
+                Do your instances come pre-installed with cPanel/WHM, WordPress, PHP, MySQL, etc.?
+            </div>
+            <div class="answercont">
+                <div class="answer">
+                    By default, a clean OS is installed without these additional packages. However, you will
+                    have
+                    full root/admin rights to install any additional software you need. The application image
+                    contains the corresponding environment; for example, the WordPress image contains PHP,
+                    Nginx,
+                    WordPress, and MySQL.<br><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="question">
+                Out Of Stock Mean?
+            </div>
+            <div class="answercont">
+                <div class="answer">
+                    It means that the item is currently unavailable. This indicates that we currently have no
+                    stock
+                    available.<br><br>
+                </div>
+            </div>
+        </div>
+
     </div>
-     
-    <!-- Dummy Article Content -->
-    <div class="article-content">
-        <h3>|| WELCOME ||</h3>
 
-        <p>Welcome To VPS DEKHO!<br>
-          
-          <br>With prices starting at ₹99, our goal is to make our VPS accessible to all users, especially those who cannot buy VPS due to unavailability of a credit card. We offer a fast and simple VPS experience that delivers great value and powerful features at an affordable price.<br>
-      
-        <br><h3>|| FAQs ||</h3>
-      
-        <h3># Is that VPS Dekho trustworthy?</h3>
-      
-          <p>If you do not trust us, that's not a problem because we have our own customers who believe in us and gave us a chance for the first time. Now, those customers are our regular clients. So, try us out first, and then believe in our services.<br></p>
-      
-        <h3># Are those VPS legitimate or are they carded VPS?</h3>
-      
-          <p>We do not sell carded items; we sell genuine products directly from data centers.<br></p>
-        
-        <h3># Why are our prices cheaper than others?</h3>
-      
-          <p>We offer servers from direct data centers in multiple cities, with the option to upgrade and renew. Our focus is on quality products without unnecessary expenses on advertising or promotions.<br></p>
+    <h1 class="faq-heading"><i><b>Get In Touch</b></i></h1>
+    <div class="wrapper">
+        <div class="container">
+            <div class="question">
+                Contact Through Telegram
+            </div>
+            <div class="answercont">
+                <div class="answer">
+                    <a href="https://t.me/HeyHeartBeat" style="text-decoration: none;" target="_blank">Click Here</a> to
+                    reach out to us on
+                    Telegram.
+                    <br>
+                    Or search <span style="color: blue;">@HeyHeartBeat</span> on Telegram.
+                    <br><br>
 
-        <h3># What payment methods does VPS Dekho support?</h3>
-      
-          <p>Currently, VPS Dekho only supports payments via UPI. In the future, we plan to add many more payment methods.<br></p>
 
-        <h3># Does VPS Dekho charge VAT/Sales Tax?</h3>
-      
-          <p>Currently, VPS Dekho does not charge VAT/Sales Tax.<br></p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="question">
+                Contact Through Email
+            </div>
+            <div class="answercont">
+                <div class="answer">
+                    Contact Through Email:
+                    <a href="mailto:vpsdekho@gmail.com" style="text-decoration: none; word-break: break-all;"
+                        target="_blank">vpsdekho@gmail.com</a>
+                    <br><br>
 
-        <h3># For outbound traffic, inbound traffic, and the total bandwidth usage, how is it calculated?</h3>
-      
-          <p>The costs are calculated based on outgoing traffic only, not inbound traffic.
-For example, if your monthly bandwidth quota is 4TB, it is calculated as follows: 4TB/672hr(24hr*28days)=5.95GB/hr.<br></p>
-      
-        <h3># What Data Centers do we provide?</h3>
-      
-          <p>We offer many popular data center locations. As of now, we have New York, San Francisco, Amsterdam, Singapore, London, Frankfurt, Toronto, Bangalore, and Sydney. In the future, we will add more locations.<br></p>
 
-        <h3># Which OS images do you offer?</h3>
-      
-          <p>We offer the following system images: Ubuntu, CentOS, Debian, Fedora, Alma Linux, and Rocky Linux.<br></p>
-
-        <h3># Does VPS Dekho support IPv6?</h3>
-      
-          <p>We have both IPv4 and IPv6. By default, all of our VPS have IPv4. If any users request IPv6, we can enable the IPv6 option.<br></p>
-      
-        <h3># Do your instances come pre-installed with cPanel/WHM, WordPress, PHP, MySQL, etc.?</h3>
-      
-          <p>By default, a clean OS is installed without these additional packages. However, you will have full root/admin rights to install any additional software you need. The application image contains the corresponding environment; for example, the WordPress image contains PHP, Nginx, WordPress, and MySQL.<br></p>
-
-        <h3># Out Of Stock Mean?</h3>
-  
-        <p>It means that the item is currently unavailable. This indicates that we currently have no stock available.<br></p>
-      
-        <br><h3>|| INFORMATIONS ||</h3>
-        
-        <h3># Terms and Conditions</h3>
-        
-        <p>Customers are responsible for managing their VPS. They can do whatever they want with their VPS, but abuse, use of pornographic material, leeching torrents, or any use of copyrighted content is prohibited. If the VPS gets suspended or banned for these reasons, the provider is not responsible, and no changes or swaps of the VPS will be provided. Therefore, remember to consider the type of work you do with the VPS before using it. Support is available only for network issues, server hardware, and OS templates. We do not offer support for installing, configuring, or debugging applications.<br></p>
-        
-        <h3># Refund Policy</h3>
-
-<p>Due to the nature of our services and the digital products we offer, we are unable to process any refunds. Once an order is placed and payment is made, it is considered a final and non-refundable transaction.<br>
-</p>
-        
-        <h3># Contact Us</h3>
-        
-        <p>We are here to assist you in any way we can. Please feel free to reach out to us using the contact information below:<br>
-
-<br>📧 Email: vpsdekho@gmail.com<br>
-📱 Owner Telegram ID: @HeyHeartBeat</p>
-        
+                </div>
+            </div>
+        </div>
     </div>
-    
+
+    <h1 class="faq-heading"><i><b>Informations</b></i></h1>
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="question">
+                Terms and Conditions
+            </div>
+            <div class="answercont">
+                <div class="answer">
+                    <p>Customers are responsible for managing their VPS. They can do whatever they want with their VPS,
+                        but abuse, use of
+                        pornographic material, leeching torrents, or any use of copyrighted content is prohibited. If
+                        the VPS gets suspended
+                        or banned for these reasons, the provider is not responsible, and no changes or swaps of the VPS
+                        will be provided.
+                        Therefore, remember to consider the type of work you do with the VPS before using it. Support is
+                        available only for
+                        network issues, server hardware, and OS templates. We do not offer support for installing,
+                        configuring, or debugging
+                        applications.</p>
+                    <br><br>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="question">
+                Refund Policy
+            </div>
+            <div class="answercont">
+                <div class="answer">
+                    <p>Due to the nature of our services and the digital products we offer, we are unable to process any
+                        refunds. Once an
+                        order is placed and payment is made, it is considered a final and non-refundable
+                        transaction.<br>
+                    </p>
+                    <br><br>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="happy-client">
+        <p>We Have Successfully Sold Vps To Over <span>22</span> Satisfied Clients Thus Far</p>
+    </div>
+
     <footer>
-        <center><p>Copyright © 2024 Vps Dekho - All Rights Reserved</p></center>
-        <center><p>👨🏻‍💻 Designed and Developed by Anjan with ❤️</p></center>
+
+        <p>👨🏻‍💻 Designed and Developed by Anjan with ❤️</p>
+        <p>Copyright © 2024 Vps Dekho - All Rights Reserved</p>
     </footer>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const categorySelect = document.getElementById('category-select');
-            const optionsContainer = document.getElementById('options-container');
-
-            categorySelect.addEventListener('change', function() {
-                const category = categorySelect.value;
-                if (category !== "") {
-                    fetchOptions(category);
-                } else {
-                    optionsContainer.innerHTML = '';
-                }
-            });
-
-            function fetchOptions(category) {
-                optionsContainer.innerHTML = '<div class="loading-spinner"></div>';
-                // Simulate delay for fetching options (in real application, this should be an AJAX call)
-                setTimeout(function() {
-                    const options = {
-                        "For Budget-Conscious Users": [
-                            ["DO 1", "Best Choice With Excellent Power", "https://telegram.me/HeyHeartBeat",
-                                {"Price": "₹649/month", "RAM": "8 GB", "Regular CPU": "4", "SSD Storage": "160 GB", "Bandwidth": "5 TB", "Validity": "28 Days", "Location": "User Choice", "OS": "User Choice"}],
-                            ["DO 2", "Effective Pricing With Good Features", "https://telegram.me/HeyHeartBeat",
-                                {"Price": "₹99/month", "RAM": "1 GB", "Regular CPU": "1", "SSD Storage": "25 GB", "Bandwidth": "1 TB", "Validity": "28 Days", "Location": "User Choice", "OS": "User Choice"}],
-                            ["DO 3", "Great Alternative Choice For Beginners", "https://telegram.me/HeyHeartBeat",
-                                {"Price": "₹249/month", "RAM": "2 GB", "Regular CPU": "1", "SSD Storage": "50 GB", "Bandwidth": "2 TB", "Validity": "28 Days", "Validity": "28 Days", "Location": "User Choice", "OS": "User Choice"}],
-                            ["DO 4", "Reliable With Excellent Features", "https://telegram.me/HeyHeartBeat",
-                                {"Price": "₹349/month", "RAM": "4 GB", "Regular CPU": "2", "SSD Storage": "80 GB", "Bandwidth": "4 TB", "Validity": "28 Days", "Validity": "28 Days", "Location": "User Choice", "OS": "User Choice"}]
-                        ],
-                        "For Quality-Focused Users": [
-                            ["DO 1", "Best Choice With Excellent Power", "https://telegram.me/HeyHeartBeat",
-                                {"Price": "₹749/month", "RAM": "8 GB", "Intel CPU": "4", "NVME Storage": "240 GB", "Bandwidth": "6 TB", "Validity": "28 Days", "Validity": "28 Days", "Location": "User Choice", "OS": "User Choice"}],
-                            ["DO 2", "Effective Pricing With Good Features", "https://telegram.me/HeyHeartBeat",
-                                {"Price": "₹199/month", "RAM": "1 GB", "AMD CPU": "1", "NVME Storage": "35 GB", "Bandwidth": "1 TB", "Validity": "28 Days", "Location": "User Choice", "OS": "User Choice"}],
-                            ["DO 3", "Great Alternative Choice For Beginners", "https://telegram.me/HeyHeartBeat",
-                                {"Price": "₹349/month", "RAM": "2 GB", "Intel CPU": "1", "NVME Storage": "70 GB", "Bandwidth": "2 TB", "Validity": "28 Days", "Validity": "28 Days", "Location": "User Choice", "OS": "User Choice"}],
-                            ["DO 4", "Reliable With Excellent Features", "https://telegram.me/HeyHeartBeat",
-                                {"Price": "₹449/month", "RAM": "4 GB", "Intel CPU": "2", "NVME Storage": "120 GB", "Bandwidth": "4 TB", "Validity": "28 Days", "Validity": "28 Days", "Location": "User Choice", "OS": "User Choice"}]
-                        ],
-                        "For Value-Seeking Users": [
-                            ["DO 1", "Best Choice With Excellent Power", "https://telegram.me/HeyHeartBeat",
-                                {"Price": "₹699/month", "RAM": "8 GB", "AMD CPU": "4", "NVME Storage": "160 GB", "Bandwidth": "5 TB", "Validity": "28 Days", "Validity": "28 Days", "Location": "User Choice", "OS": "User Choice"}],
-                            ["DO 2", "Effective Pricing With Good Features", "https://telegram.me/HeyHeartBeat",
-                                {"Price": "₹149/month", "RAM": "1 GB", "AMD CPU": "1", "NVME Storage": "25 GB", "Bandwidth": "1 TB", "Validity": "28 Days", "Location": "User Choice", "OS": "User Choice"}],
-                            ["DO 3", "Great Alternative Choice For Beginners", "https://telegram.me/HeyHeartBeat",
-                                {"Price": "₹299/month", "RAM": "2 GB", "AMD CPU": "1", "NVME Storage": "50 GB", "Bandwidth": "2 TB", "Validity": "28 Days", "Validity": "28 Days", "Location": "User Choice", "OS": "User Choice"}],
-                            ["DO 4", "Reliable With Excellent Features", "https://telegram.me/HeyHeartBeat",
-                                {"Price": "₹399/month", "RAM": "4 GB", "AMD CPU": "2", "NVME Storage": "80 GB", "Bandwidth": "4 TB", "Validity": "28 Days", "Validity": "28 Days", "Location": "User Choice", "OS": "User Choice"}]                          
-                        ]
-                    };
-                    const categoryOptions = options[category];
-                    let html = '';
-                    categoryOptions.forEach((option, index) => {
-                        html += `
-                            <div class="option">
-                                ${index === 0 ? '<center><h2><mark>Recommended VPS</mark></h2></center>' : ''}
-                                ${index === 0 ? `<h3>${option[0]} - ${option[1]}</h3>` : ''}
-                                ${index !== 0 ? '<hr><center><h2>Alternative VPS</h2></center>' : ''}
-                                ${index !== 0 ? `<h3>${option[0]} - ${option[1]}</h3>` : ''}
-                                <table class="feature-table">
-                                    <tr><th>Feature</th><th>Details</th></tr>
-                        `;
-                        for (const [key, value] of Object.entries(option[3])) {
-                            html += `<tr><td>${key}</td><td>${value}</td></tr>`;
-                        }
-                        html += `</table>`;
-                        html += `<br>`;
-                        html += `<a class="button" href="${option[2]}" target="_blank">About ${option[0]}</a>`;
-                        html += `<br>`;
-                        html += `</div>`;
-                    });
-                    optionsContainer.innerHTML = html;
-                }, 1000); // Simulated delay of 1 second 
-            }
-            // Fetch options for "For Budget-Conscious Users" category when page loads
-        fetchOptions("For Budget-Conscious Users");
-        categorySelect.value = "For Budget-Conscious Users";
-        });
-    </script>
-    
 </body>
+
+<script src="script.js"></script>
+
 </html>
