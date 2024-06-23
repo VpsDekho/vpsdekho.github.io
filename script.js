@@ -141,7 +141,8 @@ document.addEventListener("DOMContentLoaded", function () {
               Validity: "28 Days",
               Location: "User Choice",
               OS: "User Choice",
-              "Stock Availability": "Out of Stock",
+              "Stock Availability":
+              "<span class='red-text'>Out of Stock</span>",
             },
             "MORE INFO",
           ],
