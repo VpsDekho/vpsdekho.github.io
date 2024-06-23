@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const options = {
         "For Budget-Conscious Users": [
           [
-            "DO 1",
+            "PREMIUM",
             "Best Choice With Excellent Power",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -32,10 +32,10 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "In Stock",
             },
-            "About dO 1",
+            "CLICK FOR MORE INFO",
           ],
           [
-            "DO 2",
+            "STARTER",
             "Effective Pricing With Good Features",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -49,10 +49,10 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "Out of Stock",
             },
-            "About dO 2",
+            "CLICK FOR MORE INFO",
           ],
           [
-            "DO 3",
+            "BASIC",
             "Great Alternative Choice For Beginners",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -67,10 +67,10 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "Out of Stock",
             },
-            "About dO 3",
+            "CLICK FOR MORE INFO",
           ],
           [
-            "DO 4",
+            "STANDARD",
             "Reliable With Excellent Features",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -85,12 +85,12 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "In Stock",
             },
-            "About dO 4",
+            "CLICK FOR MORE INFO",
           ],
         ],
         "For Quality-Focused Users": [
           [
-            "DO 1",
+            "PREMIUM",
             "Best Choice With Excellent Power",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -105,10 +105,10 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "In Stock",
             },
-            "About dO 1",
+            "CLICK FOR MORE INFO",
           ],
           [
-            "DO 2",
+            "STARTER",
             "Effective Pricing With Good Features",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -122,10 +122,10 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "Out of Stock",
             },
-            "About dO 2",
+            "CLICK FOR MORE INFO",
           ],
           [
-            "DO 3",
+            "BASIC",
             "Great Alternative Choice For Beginners",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -140,10 +140,10 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "Out of Stock",
             },
-            "About dO 3",
+            "CLICK FOR MORE INFO",
           ],
           [
-            "DO 4",
+            "STANDARD",
             "Reliable With Excellent Features",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -158,12 +158,12 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "In Stock",
             },
-            "About dO 4",
+            "CLICK FOR MORE INFO",
           ],
         ],
         "For Value-Seeking Users": [
           [
-            "DO 1",
+            "PREMIUM",
             "Best Choice With Excellent Power",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -178,10 +178,10 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "In Stock",
             },
-            "About dO 1",
+            "CLICK FOR MORE INFO",
           ],
           [
-            "DO 2",
+            "STARTER",
             "Effective Pricing With Good Features",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -195,10 +195,10 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "Out of Stock",
             },
-            "About dO 2",
+            "CLICK FOR MORE INFO",
           ],
           [
-            "DO 3",
+            "BASIC",
             "Great Alternative Choice For Beginners",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -213,10 +213,10 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "Out of Stock",
             },
-            "About dO 3",
+            "CLICK FOR MORE INFO",
           ],
           [
-            "DO 4",
+            "STANDARD",
             "Reliable With Excellent Features",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -231,7 +231,7 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "In Stock",
             },
-            "About dO 4",
+            "CLICK FOR MORE INFO",
           ],
         ],
       };
