@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "In Stock",
             },
-            "CLICK FOR MORE INFO",
+            "MORE INFO",
           ],
           [
             "STARTER",
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "Out of Stock",
             },
-            "CLICK FOR MORE INFO",
+            "MORE INFO",
           ],
           [
             "BASIC",
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "Out of Stock",
             },
-            "CLICK FOR MORE INFO",
+            "MORE INFO",
           ],
           [
             "STANDARD",
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "In Stock",
             },
-            "CLICK FOR MORE INFO",
+            "MORE INFO",
           ],
         ],
         "For Quality-Focused Users": [
@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "In Stock",
             },
-            "CLICK FOR MORE INFO",
+            "MORE INFO",
           ],
           [
             "STARTER",
@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "Out of Stock",
             },
-            "CLICK FOR MORE INFO",
+            "MORE INFO",
           ],
           [
             "BASIC",
@@ -140,7 +140,7 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "Out of Stock",
             },
-            "CLICK FOR MORE INFO",
+            "MORE INFO",
           ],
           [
             "STANDARD",
@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "In Stock",
             },
-            "CLICK FOR MORE INFO",
+            "MORE INFO",
           ],
         ],
         "For Value-Seeking Users": [
@@ -178,7 +178,7 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "In Stock",
             },
-            "CLICK FOR MORE INFO",
+            "MORE INFO",
           ],
           [
             "STARTER",
@@ -195,7 +195,7 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "Out of Stock",
             },
-            "CLICK FOR MORE INFO",
+            "MORE INFO",
           ],
           [
             "BASIC",
@@ -213,7 +213,7 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "Out of Stock",
             },
-            "CLICK FOR MORE INFO",
+            "MORE INFO",
           ],
           [
             "STANDARD",
@@ -231,7 +231,7 @@ document.addEventListener("DOMContentLoaded", function () {
               OS: "User Choice",
               "Stock Availability": "In Stock",
             },
-            "CLICK FOR MORE INFO",
+            "MORE INFO",
           ],
         ],
       };
