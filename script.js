@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const options = {
         "For Budget-Conscious Users": [
           [
-            "PREMIUM",
+            "DO 1",
             "Best Choice With Excellent Power",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -30,12 +30,12 @@ document.addEventListener("DOMContentLoaded", function () {
               Validity: "28 Days",
               Location: "User Choice",
               OS: "User Choice",
-              "Stock Availability": "In Stock",
+              "Stock Availability": "<span class='green-text'>In Stock</span>",
             },
             "MORE INFO",
           ],
           [
-            "STARTER",
+            "DO 2",
             "Effective Pricing With Good Features",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -47,12 +47,13 @@ document.addEventListener("DOMContentLoaded", function () {
               Validity: "28 Days",
               Location: "User Choice",
               OS: "User Choice",
-              "Stock Availability": "Out of Stock",
+              "Stock Availability":
+                "<span class='red-text'>Out of Stock</span>",
             },
             "MORE INFO",
           ],
           [
-            "BASIC",
+            "DO 3",
             "Great Alternative Choice For Beginners",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -65,12 +66,13 @@ document.addEventListener("DOMContentLoaded", function () {
               Validity: "28 Days",
               Location: "User Choice",
               OS: "User Choice",
-              "Stock Availability": "Out of Stock",
+              "Stock Availability":
+                "<span class='red-text'>Out of Stock</span>",
             },
             "MORE INFO",
           ],
           [
-            "STANDARD",
+            "DO 4",
             "Reliable With Excellent Features",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -83,14 +85,14 @@ document.addEventListener("DOMContentLoaded", function () {
               Validity: "28 Days",
               Location: "User Choice",
               OS: "User Choice",
-              "Stock Availability": "In Stock",
+              "Stock Availability": "<span class='green-text'>In Stock</span>",
             },
             "MORE INFO",
           ],
         ],
         "For Quality-Focused Users": [
           [
-            "PREMIUM",
+            "DO 1",
             "Best Choice With Excellent Power",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -103,12 +105,12 @@ document.addEventListener("DOMContentLoaded", function () {
               Validity: "28 Days",
               Location: "User Choice",
               OS: "User Choice",
-              "Stock Availability": "In Stock",
+              "Stock Availability": "<span class='green-text'>In Stock</span>",
             },
             "MORE INFO",
           ],
           [
-            "STARTER",
+            "DO 2",
             "Effective Pricing With Good Features",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -120,12 +122,13 @@ document.addEventListener("DOMContentLoaded", function () {
               Validity: "28 Days",
               Location: "User Choice",
               OS: "User Choice",
-              "Stock Availability": "Out of Stock",
+              "Stock Availability":
+                "<span class='red-text'>Out of Stock</span>",
             },
             "MORE INFO",
           ],
           [
-            "BASIC",
+            "DO 3",
             "Great Alternative Choice For Beginners",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -143,7 +146,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "MORE INFO",
           ],
           [
-            "STANDARD",
+            "DO 4",
             "Reliable With Excellent Features",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -156,14 +159,14 @@ document.addEventListener("DOMContentLoaded", function () {
               Validity: "28 Days",
               Location: "User Choice",
               OS: "User Choice",
-              "Stock Availability": "In Stock",
+              "Stock Availability": "<span class='green-text'>In Stock</span>",
             },
             "MORE INFO",
           ],
         ],
         "For Value-Seeking Users": [
           [
-            "PREMIUM",
+            "DO 1",
             "Best Choice With Excellent Power",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -176,12 +179,12 @@ document.addEventListener("DOMContentLoaded", function () {
               Validity: "28 Days",
               Location: "User Choice",
               OS: "User Choice",
-              "Stock Availability": "In Stock",
+              "Stock Availability": "<span class='green-text'>In Stock</span>",
             },
             "MORE INFO",
           ],
           [
-            "STARTER",
+            "DO 2",
             "Effective Pricing With Good Features",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -193,12 +196,13 @@ document.addEventListener("DOMContentLoaded", function () {
               Validity: "28 Days",
               Location: "User Choice",
               OS: "User Choice",
-              "Stock Availability": "Out of Stock",
+              "Stock Availability":
+                "<span class='red-text'>Out of Stock</span>",
             },
             "MORE INFO",
           ],
           [
-            "BASIC",
+            "DO 3",
             "Great Alternative Choice For Beginners",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -211,12 +215,13 @@ document.addEventListener("DOMContentLoaded", function () {
               Validity: "28 Days",
               Location: "User Choice",
               OS: "User Choice",
-              "Stock Availability": "Out of Stock",
+              "Stock Availability":
+                "<span class='red-text'>Out of Stock</span>",
             },
             "MORE INFO",
           ],
           [
-            "STANDARD",
+            "DO 4",
             "Reliable With Excellent Features",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -229,7 +234,7 @@ document.addEventListener("DOMContentLoaded", function () {
               Validity: "28 Days",
               Location: "User Choice",
               OS: "User Choice",
-              "Stock Availability": "In Stock",
+              "Stock Availability": "<span class='green-text'>In Stock</span>",
             },
             "MORE INFO",
           ],
@@ -242,7 +247,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             <div class="option">
                                 ${
                                   index === 0
-                                    ? "<center><h2><mark>Recommended VPS</mark></h2></center>"
+                                    ? "<center><h2><mark style='padding: 10px;border-radius: 10px'>Recommended VPS</mark></h2></center>"
                                     : ""
                                 }
                                 ${
