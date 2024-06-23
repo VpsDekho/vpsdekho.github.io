@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const options = {
         "For Budget-Conscious Users": [
           [
-            "DO 1",
+            "PREMIUM",
             "Best Choice With Excellent Power",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "MORE INFO",
           ],
           [
-            "DO 2",
+            "STARTER",
             "Effective Pricing With Good Features",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "MORE INFO",
           ],
           [
-            "DO 3",
+            "BASIC",
             "Great Alternative Choice For Beginners",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "MORE INFO",
           ],
           [
-            "DO 4",
+            "STANDARD",
             "Reliable With Excellent Features",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         "For Quality-Focused Users": [
           [
-            "DO 1",
+            "PREMIUM",
             "Best Choice With Excellent Power",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "MORE INFO",
           ],
           [
-            "DO 2",
+            "STARTER",
             "Effective Pricing With Good Features",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -128,7 +128,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "MORE INFO",
           ],
           [
-            "DO 3",
+            "BASIC",
             "Great Alternative Choice For Beginners",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "MORE INFO",
           ],
           [
-            "DO 4",
+            "STANDARD",
             "Reliable With Excellent Features",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         "For Value-Seeking Users": [
           [
-            "DO 1",
+            "PREMIUM",
             "Best Choice With Excellent Power",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -185,7 +185,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "MORE INFO",
           ],
           [
-            "DO 2",
+            "STARTER",
             "Effective Pricing With Good Features",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -203,7 +203,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "MORE INFO",
           ],
           [
-            "DO 3",
+            "BASIC",
             "Great Alternative Choice For Beginners",
             "https://telegram.me/HeyHeartBeat",
             {
@@ -222,7 +222,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "MORE INFO",
           ],
           [
-            "DO 4",
+            "STANDARD",
             "Reliable With Excellent Features",
             "https://telegram.me/HeyHeartBeat",
             {
