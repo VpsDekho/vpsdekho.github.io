@@ -294,3 +294,11 @@ footer p:nth-child(2) {
     margin-top: 10px;
     color: #adadad;
 }
+
+.red-text {
+    color: #ff0000;
+}
+
+.green-text {
+    color: #007f06;
+}
