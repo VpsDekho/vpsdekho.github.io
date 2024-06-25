@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
               Location: "User Choice",
               OS: "User Choice",
               "Stock Availability":
-                "<span class='red-text'>In Stock</span>",
+                "<span class='green-text'>In Stock</span>",
             },
             "MORE INFO",
           ],
@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", function () {
               Location: "User Choice",
               OS: "User Choice",
               "Stock Availability":
-              "<span class='red-text'>In Stock</span>",
+              "<span class='green-text'>In Stock</span>",
             },
             "MORE INFO",
           ],
@@ -210,7 +210,7 @@ document.addEventListener("DOMContentLoaded", function () {
               Location: "User Choice",
               OS: "User Choice",
               "Stock Availability":
-                "<span class='red-text'>In Stock</span>",
+                "<span class='green-text'>In Stock</span>",
             },
             "MORE INFO",
           ],
