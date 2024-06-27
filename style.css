@@ -302,3 +302,7 @@ footer p:nth-child(2) {
 .green-text {
     color: #007f06;
 }
+
+mark {
+background-color: salmon
+}
