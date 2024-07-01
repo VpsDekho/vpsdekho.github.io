@@ -65,8 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
               Validity: "28 Days",
               Location: "User Choice",
               OS: "User Choice",
-              "Stock Availability":
-                "<span class='green-text'>In Stock</span>",
+              "Stock Availability": "<span class='green-text'>In Stock</span>",
             },
             "MORE INFO",
           ],
@@ -137,8 +136,7 @@ document.addEventListener("DOMContentLoaded", function () {
               Validity: "28 Days",
               Location: "User Choice",
               OS: "User Choice",
-              "Stock Availability":
-              "<span class='green-text'>In Stock</span>",
+              "Stock Availability": "<span class='green-text'>In Stock</span>",
             },
             "MORE INFO",
           ],
@@ -209,8 +207,7 @@ document.addEventListener("DOMContentLoaded", function () {
               Validity: "28 Days",
               Location: "User Choice",
               OS: "User Choice",
-              "Stock Availability":
-                "<span class='green-text'>In Stock</span>",
+              "Stock Availability": "<span class='green-text'>In Stock</span>",
             },
             "MORE INFO",
           ],
@@ -294,4 +291,32 @@ question.forEach((question) => {
       answer.style.maxHeight = 0;
     }
   });
+});
+const toggleButton = document.getElementById("themeToggle");
+toggleButton.addEventListener("click", () => {
+  if (toggleButton.classList.contains("fa-moon")) {
+    toggleButton.classList.remove("fa-moon");
+    toggleButton.classList.add("fa-sun");
+  } else {
+    toggleButton.classList.remove("fa-sun");
+    toggleButton.classList.add("fa-moon");
+  }
+  document.body.classList.toggle("dark-theme");
+  document
+    .querySelectorAll(
+      "nav, .logo p, .main-container, select, .feature-table, .button, .article-content, .container, .question, .answer, .happy-client, footer , .cat-select , .loading-spinner , #themeToggle , #expended-nav , #logo"
+    )
+    .forEach((el) => {
+      el.classList.toggle("dark-theme");
+    });
+});
+
+let navTogBtn = document.getElementById("nav-toggle");
+let expandedNav = document.getElementById("expended-nav");
+navTogBtn.addEventListener("click", () => {
+  expandedNav.classList.toggle("active");
+});
+let scrolltotop = document.getElementById("scrolltotop");
+scrolltotop.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });
